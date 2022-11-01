@@ -119,11 +119,13 @@
         },
         "aqua-800": {
           "value": "#316c82ff",
-          "type": "color"
+          "type": "color",
+          "comment": "Aqua with an amazing text-on-white contrast (AAA)"
         },
         "aqua-700": {
           "value": "#3a8396ff",
-          "type": "color"
+          "type": "color",
+          "comment": "Aqua with good-enough text-on-white contrast (AA)"
         },
         "aqua-600": {
           "value": "#4295abff",
@@ -295,12 +297,12 @@
           "value": "#c0f0e6ff",
           "type": "color"
         },
-        "teal-100": {
-          "value": "#d5f6efff",
-          "type": "color"
-        },
         "teal-0": {
           "value": "#e9f8f5ff",
+          "type": "color"
+        },
+        "teal-100": {
+          "value": "#d5f6efff",
           "type": "color"
         }
       },
@@ -476,10 +478,6 @@
           "value": "#d49b35ff",
           "type": "color"
         },
-        "yellow-600": {
-          "value": "#f6be41ff",
-          "type": "color"
-        },
         "yellow-500": {
           "value": "#f8ce4cff",
           "type": "color"
@@ -502,6 +500,10 @@
         },
         "yellow-0": {
           "value": "#fef8e4ff",
+          "type": "color"
+        },
+        "yellow-600": {
+          "value": "#f6be41ff",
           "type": "color"
         }
       },
@@ -559,35 +561,35 @@
     "semantic": {
       "primary": {
         "primary-activebackground": {
-          "value": "#453e96ff",
+          "value": "#58c1b2ff",
           "type": "color"
         },
         "primary-hoverbackground": {
-          "value": "#5a52b4ff",
+          "value": "#6addc6ff",
           "type": "color"
         },
         "primary-hovercolor": {
-          "value": "#ffffffff",
+          "value": "#1b3e3eff",
           "type": "color"
         },
         "primary-background": {
-          "value": "#6b62ccff",
+          "value": "#97e7d5ff",
           "type": "color"
         },
         "primary-color": {
-          "value": "#ffffffff",
+          "value": "#2a6461ff",
           "type": "color"
         },
-        "primary-innactivebackground": {
-          "value": "#d8d8f6ff",
+        "cta-primary-activebackground": {
+          "value": "#dfe1e1ff",
           "type": "color"
         },
         "primary-border": {
-          "value": "#6b62ccff",
+          "value": "#2a6461ff",
           "type": "color"
         },
         "hoverinnactivebackground": {
-          "value": "#c0c2f3ff",
+          "value": "#c9ccccff",
           "type": "color"
         }
       },
@@ -665,67 +667,60 @@
       },
       "info": {
         "info-color": {
-          "value": "#3a79bdff",
+          "value": "#6b62ccff",
           "type": "color"
         },
         "info-icon": {
-          "value": "#306ca5ff",
+          "value": "#5a52b4ff",
           "type": "color"
         },
         "info-border": {
-          "value": "#6aacefff",
+          "value": "#9e95ecff",
           "type": "color"
         },
         "info-background": {
-          "value": "#e0f1feff",
+          "value": "#eaeaf8ff",
           "type": "color"
         }
       },
       "opportunity": {
         "opportunity-color": {
-          "value": "#357a7bff",
+          "value": "#a43b5bff",
           "type": "color"
         },
         "opportunity-icon": {
-          "value": "#357a7bff",
+          "value": "#a43b5bff",
           "type": "color"
         },
         "opportunity-border": {
-          "value": "#6addc6ff",
+          "value": "#ee7fadff",
           "type": "color"
         },
         "opportunity-background": {
-          "value": "#d5f6efff",
-          "type": "color"
-        }
-      },
-      "sale": {
-        "sale70-background": {
-          "value": "#f6be41ff",
-          "type": "color"
-        },
-        "sale50-background": {
-          "value": "#de638bff",
-          "type": "color"
-        },
-        "sale30-background": {
-          "value": "#58c1b2ff",
-          "type": "color",
-          "comment": "Some test description"
-        },
-        "sale-color": {
-          "value": "#ffffffff",
+          "value": "#f7dceaff",
           "type": "color"
         }
       }
     },
-    "vermelho": {
-      "value": "#ff0000ff",
-      "type": "color"
-    },
-    "sangue": {
-      "value": "#842424ff",
-      "type": "color"
+    "special": {
+      "rating": {
+        "rating-on": {
+          "value": "#f6be41ff",
+          "type": "color"
+        },
+        "rating-hoveron": {
+          "value": "#d49b35ff",
+          "type": "color"
+        },
+        "rating-off": {
+          "value": "#dfe1e1ff",
+          "type": "color"
+        },
+        "rating-hoveroff": {
+          "value": "#f6be41ff",
+          "type": "color"
+        }
+      }
     }
   }
 }
